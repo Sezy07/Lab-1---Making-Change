@@ -2,16 +2,16 @@ import javax.swing.*;
 
 class Register {
     private final Denomination[] denominations = {
-            new Denomination("Hundred Note", 100.0, "bill", "hundred.png"),
-            new Denomination("Fifty Note", 50.0, "bill", "fifty.png"),
-            new Denomination("Twenty Note", 20.0, "bill", "twenty.png"),
-            new Denomination("Ten Note", 10.0, "bill", "ten.png"),
-            new Denomination("Five Note", 5.0, "bill", "five.png"),
-            new Denomination("One Note", 1.0, "bill", "one.png"),
-            new Denomination("Quarter", 0.25, "coin", "quarter.png"),
-            new Denomination("Dime", 0.10, "coin", "dime.png"),
-            new Denomination("Nickel", 0.05, "coin", "nickel.png"),
-            new Denomination("Penny", 0.01, "coin", "penny.png")
+            new Denomination("Hundred Note", 100.0, "bill", "Files for Currency/hundred.jpg"),
+            new Denomination("Fifty Note", 50.0, "bill", "Files for Currency/fifty.jpg"),
+            new Denomination("Twenty Note", 20.0, "bill", "Files for Currency/twenty.jpg"),
+            new Denomination("Ten Note", 10.0, "bill", "Files for Currency/ten.jpg"),
+            new Denomination("Five Note", 5.0, "bill", "Files for Currency/five.jpg"),
+            new Denomination("One Note", 1.0, "bill", "Files for Currency/one.jpg"),
+            new Denomination("Quarter", 0.25, "coin", "Files for Currency/quarter.jpg"),
+            new Denomination("Dime", 0.10, "coin", "Files for Currency/dime.jpg"),
+            new Denomination("Nickel", 0.05, "coin", "Files for Currency/nickel.jpg"),
+            new Denomination("Penny", 0.01, "coin", "Files for Currency/penny.jpg")
     };
 
     public Purse makeChange(double amt) {
