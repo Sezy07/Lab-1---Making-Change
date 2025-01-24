@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 class Purse {
-    private Map<Denomination, Integer> cash = new HashMap<>();
+    private final Map<Denomination, Integer> cash = new HashMap<>();
 
     public void add(Denomination type, int num) {
         cash.put(type, cash.getOrDefault(type, 0) + num);
